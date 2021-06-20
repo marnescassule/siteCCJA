@@ -1,0 +1,25 @@
+body {
+  background-color: #008EF6;
+}
+
+.div nav-bar   {
+  padding:0px;
+  margin:0px;
+  font-size:  20px;
+  background-color: #1A82A4;
+  list-style:none; 
+  display: inline;
+}
+#nav menu a{
+  display: inline; 
+}
+#nav menu a {
+  padding: 2px 10px;
+  display: inline-block;
+  /* visual do link */
+  background-color: #1A82A4;
+  color: white;
+  text-decoration: none;
+  border-bottom:3px solid #1A82A4;
+}
+
