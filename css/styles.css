@@ -1,25 +1,60 @@
 body {
-  background-color: #008EF6;
+  background-color: #bbe6f5;;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.header_area {
+  background: #d8ecf3;
+  position: relative;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+.menu-bar{
+  text-align: center;
+  border: none;
+  border-radius: 0px;
+  margin: 0px;
+}
+#menu-bar.menu{
+  text-align: center;
+}
+.social_icon  a {
+  height: 38px;
+  float: right;
+  width: 38px;
+  float: right;
+  text-align: center;
+  border: 1px solid #1A82A4;
+  padding-right: 2%;
+  display: block;
+  line-height: 40px;
+  font-size: 14px;
+  border-radius: 100%;
+  transition: all 400ms linear 0s;
+  color: #1A82A4;
+  margin: 0px 10px 10px 0;
 }
 
-.div nav-bar   {
-  padding:0px;
-  margin:0px;
-  font-size:  20px;
-  background-color: #1A82A4;
-  list-style:none; 
-  display: inline;
+.footer_area {
+  background: #1A82A4;
 }
-#nav menu a{
-  display: inline; 
-}
-#nav menu a {
-  padding: 2px 10px;
-  display: inline-block;
-  /* visual do link */
-  background-color: #1A82A4;
+.footer_area hr {
   color: white;
-  text-decoration: none;
-  border-bottom:3px solid #1A82A4;
 }
+.footer_area  a i{
+  color: white;
+}
+.footer_area  h6 {
+  margin-top: 10%;
+  color: white;
+}
+.footer_area .section_footer  p a{
+  color: white;
+}
+
+
+
 
